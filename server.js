@@ -18,7 +18,6 @@ app.use(cors());
 
 app.use(express.json())
 
-app.get('/',(res,req)=>res.setEncoding("Server is running"));
 
 app.use('/api/user',userRouter)
 app.use('/api/owner',ownerRouter)
